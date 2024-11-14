@@ -1,4 +1,3 @@
-# setup.py
 from setuptools import setup, find_packages
 
 setup(
@@ -7,10 +6,10 @@ setup(
     description="A Python package to merge two Pandas DataFrames",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="laxman kusuma",
+    author="Your Name",
     author_email="laxman.kusuma@gmail.com",
-    url="https://github.com/yourusername/merge_dataframes",
-    packages=find_packages(),
+    url="https://github.com/laxmankusuma/merge_dataframes",
+    packages=find_packages(),  # Automatically discovers all packages
     install_requires=[
         "pandas>=1.0.0"
     ],
