@@ -7,7 +7,7 @@ This module contains a function to merge two Pandas DataFrames on a specified co
 To install this package, use the following command:
 
 ```bash
-pip install git+https://github.com/yourusername/merge_dataframes.git
+pip install git+https://github.com/laxmankusuma/merge_dataframes.git
 
 
 Usage:
