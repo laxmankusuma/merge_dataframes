@@ -12,7 +12,7 @@ pip install git+https://github.com/laxmankusuma/merge_dataframes.git
 
 Usage:
 
-from merge_dataframes import merge_dataframes
+from merge_dataframes.merge_dataframes import merge_dataframes
 import pandas as pd
 
 df1 = pd.DataFrame({'id': [1, 2, 3], 'name': ['Alice', 'Bob', 'Charlie']})
