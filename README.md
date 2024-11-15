@@ -22,7 +22,7 @@ merged_df = merge_dataframes(df1, df2, on='id', how='inner')
 print(merged_df)
 
 
-If you want to make this code as wheel file then follow below steps:
+To make this code into a wheel file, follow the steps below:
 
 pip install setuptools wheel
 python setup.py bdist_wheel
