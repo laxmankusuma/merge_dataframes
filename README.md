@@ -20,3 +20,10 @@ df2 = pd.DataFrame({'id': [1, 2, 4], 'age': [24, 25, 23]})
 
 merged_df = merge_dataframes(df1, df2, on='id', how='inner')
 print(merged_df)
+
+
+If you want to make this code as wheel file then follow below steps:
+
+pip install setuptools wheel
+python setup.py bdist_wheel
+This will create a dist directory containing a .whl file.
