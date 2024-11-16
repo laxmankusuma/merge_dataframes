@@ -6,7 +6,7 @@ setup(
     description="A Python package to merge two Pandas DataFrames",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Your Name",
+    author="Laxman Kusuma",
     author_email="laxman.kusuma@gmail.com",
     url="https://github.com/laxmankusuma/merge_dataframes",
     packages=find_packages(),  # Automatically discovers all packages
